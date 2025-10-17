@@ -1,6 +1,8 @@
 package com.example.empleados.model;
 
 import jakarta.persistence.*;
+import jdk.vm.ci.meta.Local;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -80,11 +82,11 @@ public class Autor {
     
     @Override
     public String toString() {
-        return "Autor{" +
-                "id=" + id +
-                ", nombre='" + nombre + '\'' +
-                ", nacionalidad='" + nacionalidad + '\'' +
-                ", fechaNacimiento=" + fechaNacimiento +
-                '}';
+        return "Autor { " +
+                "id = " + id +
+                ", nombre = '" + nombre + ' \' ' +
+                ", nacionalidad = '" + nacionalidad + ' \' ' +
+                ", fechaNacimiento = " + fechaNacimiento +
+                ' } ';
     }
 }
