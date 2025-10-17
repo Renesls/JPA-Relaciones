@@ -21,7 +21,7 @@ public class Categoria {
     // Constructores
     public Categoria() {
     }
-    
+
     public Categoria(String nombre) {
         this.nombre = nombre;
     }
